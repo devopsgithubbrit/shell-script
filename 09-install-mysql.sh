@@ -24,8 +24,8 @@ yum install git -y
 
 if [ $? -ne 0 ]
 then 
-    echo "ERROR:: Installing Mysql is failed"
+    echo "ERROR:: Installing git is failed"
     exit 1
 else
-    echo "Installing Mysql is SUCCESS"
+    echo "Installing git is SUCCESS"
 fi
