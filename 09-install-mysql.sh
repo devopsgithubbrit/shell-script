@@ -12,7 +12,7 @@ fi
 
 yum install myyyyyysql -y
 
-if [$ID -ne 0]
+if [$? -ne 0]
 then 
     echo "ERROR:: Installing MYSQL is FAILED"
     exit 1
@@ -22,7 +22,7 @@ fi
 
 yum install git -y
 
-if [$ID -ne 0]
+if [$? -ne 0]
 then 
     echo "ERROR:: Installing GIT is FAILED"
     exit 1
